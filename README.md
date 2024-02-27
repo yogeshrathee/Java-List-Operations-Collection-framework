@@ -2,6 +2,10 @@
 
 This Java program allows users to perform various operations on a list of integers. Users can add elements, remove elements, search for elements, combine lists, and more.
 
+# Output
+[output video ](https://www.linkedin.com/posts/yogeshrat-425b20279_excited-to-share-my-latest-java-project-activity-7168092787706458112-RDiK?utm_source=share&utm_medium=member_desktop)
+![]()
+
 ## Usage
 
 1. Clone the repository to your local machine.
