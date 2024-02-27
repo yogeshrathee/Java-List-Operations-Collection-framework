@@ -2,14 +2,28 @@ package org.example;
 import java.util.*;
 
 public class SearchSingleElement {
-    public static void searchSingleElement(List<Integer> collection) {
-        Scanner sc=new Scanner(System.in);
+    Scanner sc=new Scanner(System.in);
+    public void searchSingleElement(List<Integer> collection) {
         System.out.print("Enter the search element :: ");
         int element=sc.nextInt();
 
         System.out.println("element present in the list ?? :: "+collection.contains(element));
 
 
+
+        }
+        public void searchElementByIndex(List<Integer> collection) {
+            System.out.print("Enter the index number to find the value :: ");
+            int index=sc.nextInt();
+
+            if((index<collection.size()) && (index > -1)) {
+                System.out.println("present value of "+index+" index :: " + collection.get(index));
+            }else {
+                System.out.println(index+" index is not present"+
+                        "\n\s\s because you enter only index between "+0+" to "+ (collection.size() - 1 )+
+                                "\n\s\stotal size of list :: "+collection.size()+
+                                "\n\s\sso index is not matched !!!");
+            }
 
     }
 }
