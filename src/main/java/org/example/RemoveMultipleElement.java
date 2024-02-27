@@ -27,7 +27,7 @@ public class RemoveMultipleElement {
         }
         System.out.println("Removed element was present in the list :: "+presentValue);
         System.out.println("Removed element was not present in the list :: "+notPresentValue);
-        System.out.println("So we are only unable to remove this elements :: "+presentValue);
+        System.out.println("So we are only able to remove this elements :: "+presentValue);
         collection.removeAll(collection1);
 
     }

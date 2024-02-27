@@ -17,19 +17,32 @@ public class Main{
         int choice;
         do {
             System.out.println();
-            System.out.println("1. Show normal list element");
-            System.out.println("2. Search one element");
-            System.out.println("3. Search multiple elements");
-            System.out.println("4. Remove by the index number");
-            System.out.println("5. Remove multiple elements");
-            System.out.println("6. Size of list");
-            System.out.println("7. add a element");
-            System.out.println("8. combined the list of the element");
-            System.out.println("9. Add an element in any index ");
-            System.out.println("10. Find an element by the index ");
-            System.out.println("11. Show Sorted List " +
-                    "\n\s\sWarning :- if you sort the list once, then you unable to see normal list. After that you always see sorted list)");
-            System.out.println("0. Exit");
+            System.out.println("|-------------------------------------------|");
+            System.out.println("|         CHOOSE YOUR OPERATION             |");
+            System.out.println("|-------------------------------------------|");
+            System.out.println("|                                           |");
+            System.out.println("|   1. Show normal list element             |");
+            System.out.println("|   2. Search one element                   |");
+            System.out.println("|   3. Search multiple elements             |");
+            System.out.println("|   4. Remove by the index number           |");
+            System.out.println("|   5. Remove multiple elements             |");
+            System.out.println("|   6. Size of list                         |");
+            System.out.println("|   7. add a element                        |");
+            System.out.println("|   8. combined the list of the element     |");
+            System.out.println("|   9. Add an element in any index          |");
+            System.out.println("|   10. Find an element by the index        |");
+            System.out.println("""
+                    |   11. Show Sorted List\s
+                    |       \s\s(Warning :- if you sort the list once,\s
+                    |       \s\sthen you unable to see normal list.\s
+                    |       \s\sAfter that you always see sorted list)""");
+
+            System.out.println("|   12. show index number of an element     |");
+            System.out.println("|   13. Update an element of any index      |");
+            System.out.println("|   0. Exit                                 |");
+            System.out.println("|                                           |");
+            System.out.println("|-------------------------------------------|");
+            System.out.println();
             System.out.print("\nEnter your choice :: ");
             choice = sc.nextInt();
 
@@ -80,6 +93,16 @@ public class Main{
                 case 11:
                     System.out.println("Show Sorted List");
                     ShowList.showSortedList(collection);
+                    break;
+                case 12:
+                    System.out.println("show index number of an element");
+                    SearchSingleElement searchIndexByElement1=new SearchSingleElement();
+                    searchIndexByElement1.searchIndexByElement(collection);
+                    break;
+                case 13:
+                    System.out.println("Update an element with the help of an index number");
+                    AddElement addElement3=new AddElement();
+                    addElement3.updateElement(collection);
                     break;
 
                 case 0:

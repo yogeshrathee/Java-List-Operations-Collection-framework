@@ -21,4 +21,15 @@ public class AddElement {
 
         System.out.println(value+ " is add successfully in "+index + " index");
     }
+
+    public  void updateElement(List<Integer>collection){
+        System.out.print("Enter the index number :: ");
+        int index = sc.nextInt();
+
+        System.out.print("Enter the element :: ");
+        int value = sc.nextInt();
+        collection.set(index,value);
+
+        System.out.println(value+" update in "+index+" index");
+    }
 }
