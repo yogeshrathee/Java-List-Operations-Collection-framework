@@ -2,10 +2,9 @@
 
 This Java program allows users to perform various operations on a list of integers. Users can add elements, remove elements, search for elements, combine lists, and more.
 
-# Output
-![](https://github.com/yogeshrathee/Java-List-Operations-Collection-framework/blob/a3e15760d8af1fa9e0547ca6192cd8c3c76ae008/Output/Run%20-%20Java-List-Operations-Collection-framework%2027-02-2024%2008_57_52%20PM.png)
+# For a comprehensive overview of the project execution, please watch the full walkthrough on YouTube:
 
-# [Click here to see the result action(video) ](https://www.linkedin.com/posts/yogeshrat-425b20279_excited-to-share-my-latest-java-project-activity-7168269832612790272-hWYP?utm_source=share&utm_medium=member_desktop)
+[![Project Execution Demo](https://img.youtube.com/vi/TfYkqbxXiMM/0.jpg)](https://youtu.be/TfYkqbxXiMM?si=z0bI67c-VJb9ETcf)
 
 # [Click here to see the action of project(pdf)](https://github.com/yogeshrathee/Java-List-Operations-Collection-framework/blob/a3e15760d8af1fa9e0547ca6192cd8c3c76ae008/Output/Java-List-Operations-Collection-framework.pdf)
 
